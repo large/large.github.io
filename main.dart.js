@@ -21703,7 +21703,7 @@ amI(a){var s
 A:{if(4===a){s=B.CP
 break A}s=B.DV
 break A}return s},
-avF(a){return Math.abs(2*a.a+a.b)<=8},
+avF(a){return Math.abs(2*a.a+a.b)<=12},
 aiY(a){var s,r=A.Gh(4,7)
 if(a===4){s=A.X(r).h("au<1>")
 s=A.U(new A.au(r,A.aEP(),s),s.h("m.E"))}else s=r
@@ -21720,7 +21720,7 @@ o.push(new A.bX(p.a*7,p.b*7))}return o},
 amL(a,b){var s
 if(b!==4){s=29*a
 return new A.a3(s,s)}s=3*a
-return new A.a3(2*Math.sqrt(3)*4*a+s,24*a+s)},
+return new A.a3(Math.sqrt(3)*12*a+s,21*a+s)},
 aiX(a){var s,r,q,p,o,n,m,l=t.eM,k=A.c([],l)
 for(s=A.amK(a),r=s.length,q=0;q<s.length;s.length===r||(0,A.n)(s),++q){p=s[q]
 o=A.anY(8)
